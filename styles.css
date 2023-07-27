@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{ /*applies to all text*/
+    margin: 0;
+    padding: 0;
+}
+
 .section-one {  
     background-color: #1F2937;
 } 
@@ -14,9 +21,20 @@
 
 .navigationbar {
     display: flex;
+   
 }
 
 ul {
     display: flex;
+}
 
+.left-nav,.right-nav {
+    display: flex;
+    width: 50%; /* splits navbar down the middle, notice split*/
+    justify-content: center;
+    align-items: center;    
+}
+
+body {
+    font-family: 'Roboto', sans-serif; /*imported from google fonts, note start url*/
 }
