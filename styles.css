@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*imported google font*/
 
 *{ /*applies to all text*/
     margin: 0;
@@ -9,7 +9,7 @@
     background-color: #1F2937;
 } 
 
-#header-logo {
+#header-logo { /*Id therefore # as opposed to . to display class*/
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -38,3 +38,14 @@ ul {
 body {
     font-family: 'Roboto', sans-serif; /*imported from google fonts, note start url*/
 }
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;  
+}
+
+button {
+    color: #3882f6;
+}
+
