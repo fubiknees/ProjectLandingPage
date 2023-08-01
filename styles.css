@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*imported google font*/
+
 
 *{ /*applies to all text*/
     margin: 0;
     padding: 0;
+    
+
 }
 
 .section-one {  
@@ -45,7 +47,46 @@ h1 {
     color: #F9FAF8;  
 }
 
-button {
-    color: #3882f6;
+
+.content {          
+    display: flex;
+    flex-direction: row; 
+    margin: 50px;
 }
 
+.content-right {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    flex-direction: column;
+    width: 50%;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content:center ;
+    margin-left: 150px;
+}
+
+img {
+    margin-bottom: 50px;
+
+}
+
+.p-one {
+    font-size: 18px;
+    color: #E5E7EB;
+   
+}
+
+.sign-up-section-one {
+    background-color: #3882f6;
+    color: white;
+    width: 100px; /*button dimensions*/
+    height: 25px; 
+    border: 1px  #3882f6; /*eliminates whitespace around button */
+    border-radius: 10px; /* rounds corners */
+
+}
