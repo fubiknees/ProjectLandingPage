@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*imported google font*/
 
 *{ /*applies to all text*/
     margin: 0;
@@ -89,4 +89,16 @@ img {
     border: 1px  #3882f6; /*eliminates whitespace around button */
     border-radius: 10px; /* rounds corners */
 
+}
+
+h2 {
+    display: flex;
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.four-blue-divs {
+    display: flex; /*takes text from column (vertical) to row (horizontal)
 }
