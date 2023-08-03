@@ -100,5 +100,32 @@ h2 {
 }
 
 .four-blue-divs {
-    display: flex; /*takes text from column (vertical) to row (horizontal)
+    display: flex; /*takes text from column (vertical) to row (horizontal-next to eachother */
+    flex-direction: row;
+    justify-content: space-between; /*spaces out boxes*/
+    max-width: 100%;
+    margin: 100px; /*regulates distance between boxes*/
+    align-items: center;
+    
+}
+
+.box-blue {  /*settings to create boxes*/
+    border: 3px solid #3882f6; /* make sure to put solid or nothing appears */
+    width: 200px; /*create box dim*/
+    height: 200px; /*creates second dim for box*/
+    border-radius: 5px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+/*distance between boxes needs to be tweaked */
+
+.p-second {
+    text-align: center;
+    font-size: 18px;
 }
