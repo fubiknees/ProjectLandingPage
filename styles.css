@@ -155,3 +155,66 @@ h4 {
     padding-right: 570px;
 
 }
+
+.section-four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-area {
+    background-color: #3882f6;
+    width: 75%;
+    height: 40%;
+    display:flex;
+}
+
+.left-blue {
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+
+}
+
+.section-title{
+    font-size: 24px;
+    font-weight: bolder;
+    text-align:left;
+    color: white;
+
+}
+
+.p-third {
+    color: white;
+    font-size: 18px;
+}
+
+.right-blue {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.bottom-button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px; /*button dimensions*/
+    height: 25px; 
+    border: 1px solid white; /*eliminates whitespace around button */
+    border-radius: 10px; /* rounds corners */
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
+
+}
