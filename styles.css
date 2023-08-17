@@ -14,27 +14,33 @@
 #header-logo { /*Id therefore # as opposed to . to display class*/
     font-size: 24px;
     color: #F9FAF8;
+    margin-top: 20px;
+   
 }
 
 .header-links {
     font-size: 18px;
     color: #E5E7EB;
+    margin: 10px; /* Gap betweeen navigation links*/
+    margin-top: 20px;
 }
 
 .navigationbar {
     display: flex;
-   
 }
 
 ul {
     display: flex;
+
 }
 
 .left-nav,.right-nav {
     display: flex;
-    width: 50%; /* splits navbar down the middle, notice split*/
-    justify-content: center;
-    align-items: center;    
+    width: 50%; /* splits navbar down the middle, notice split*/  
+}
+.left-nav {
+    justify-content: left;
+    margin-left: 100px;
 }
 
 body {
@@ -42,7 +48,7 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 38px;
     font-weight: bolder;
     color: #F9FAF8;  
 }
@@ -51,7 +57,7 @@ h1 {
 .content {          
     display: flex;
     flex-direction: row; 
-    margin: 50px;
+    margin-left: 40px;
 }
 
 .content-right {
@@ -59,25 +65,27 @@ h1 {
     justify-content: center; 
     align-items: center;  
     flex-direction: column;
-    width: 50%;
+    width: 40%;
 }
 
 .content-left {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     justify-content:center ;
-    margin-left: 150px;
+    margin-left: 15px;
 }
 
 img {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    margin-top: 15px;
 
 }
 
 .p-one {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 15px;
    
 }
 
@@ -88,6 +96,7 @@ img {
     height: 25px; 
     border: 1px  #3882f6; /*eliminates whitespace around button */
     border-radius: 10px; /* rounds corners */
+    margin-top: 15px;
 
 }
 
@@ -97,15 +106,19 @@ h2 {
     font-weight:bolder;
     color: #1F2937;
     justify-content: center;
+    margin-top: 25px;
 }
 
 .four-blue-divs {
     display: flex; /*takes text from column (vertical) to row (horizontal-next to eachother */
     flex-direction: row;
-    justify-content: space-between; /*spaces out boxes*/
+    justify-content:space-between; /*spaces out boxes*/
     max-width: 100%;
-    margin: 100px; /*regulates distance between boxes*/
+    margin: 10px; /*regulates distance between boxes*/
     align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+
     
 }
 
@@ -136,6 +149,7 @@ h2 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
 h3 {
@@ -144,6 +158,8 @@ h3 {
    font-weight: lighter; /*this is how you control weight of italic */
    color: #1F2937;
    text-align: center;
+   margin-left: 100px;
+   margin-right: 100px;
   
 }
 
@@ -153,6 +169,7 @@ h4 {
     display: flex;
     justify-content: flex-end;
     padding-right: 570px;
+    margin-top: 15px;
 
 }
 
