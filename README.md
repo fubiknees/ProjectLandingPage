@@ -54,3 +54,10 @@ https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab0
 
 https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/02.png
 
+
+
+Credits for the images:
+
+None of the images belong to me and all rights belong to the owner.
+
+1. Rights to Book Image: Reality Transurfing - Vadim Zeland "https://zelands.com/"

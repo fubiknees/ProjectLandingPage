@@ -43,6 +43,11 @@ ul {
     margin-left: 100px;
 }
 
+.right-nav {
+    justify-content: center;
+
+}
+
 body {
     font-family: 'Roboto', sans-serif; /*imported from google fonts, note start url*/
 }
@@ -235,3 +240,14 @@ h4 {
     height: 100px;
 
 }
+
+/*closing notes
+
+Lot's learned from this project. Details that could be fixed if you have time to come back:
+
+1. Font did not import
+2. Pictures in blue boxes to match text
+3. Refining spacing to give a more professional look. Flow could be better - more uniform.
+4. Compression issues when screen is less than full.
+
+*/
